@@ -1,0 +1,2072 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Recibo de Consumo de M&oacute;vil</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+<style type="text/css">
+				
+
+					body{
+					width: 100%;
+					background-color: #EBEDEF !IMPORTANT;
+					}
+					
+					#cuerpo{
+					margin: 0px auto; 
+					width: 85%;
+					min-width: 325px;
+					box-shadow: 0px 14px 18px 0px rgba(0, 0, 0, 0.2), 0px 17px 120px 0px rgba(0, 0, 0, 0.19) !IMPORTANT;
+					background-color: rgb(128,128,128, .5);
+					padding: 0px !IMPORTANT;
+					}
+					
+				
+					#cabecera{
+					width: 100%;
+					}
+
+					#contCabecera{
+					padding: 15px;
+					width: 87%;
+					float: right;
+					background-color: #fff;
+					}
+
+					#logo{
+					width: 420px;
+					height: 100px;
+					}
+					
+					#logo2{
+					margin: 0px auto;
+					height: 100px;
+					padding-right: 10px;
+					display:none;
+					}
+
+					#tablaC{
+					line-height: 17.00px;
+					margin-top: 25px;
+					margin-left: -25px;
+					}
+
+					#tablaC td:nth-child(2) {
+					text-align: right;
+					font: 17.00px "Questrial", "Times New Roman", serif;
+					}
+
+					.enunciado{
+					text-align: left !IMPORTANT;
+					font: bold 17.00px "Questrial", "Times New Roman", serif;
+					}
+
+					#banner{
+					width: 87%;
+					float: right;
+					background-color: #fff;
+					}
+
+					.espaciador{
+					width: 11%;
+					background-color: #EE9D13;
+					float: left;
+					position: fixed;
+					top: 0;
+					left: : 0;
+					}
+					
+					.tituloBanner{
+					font-family: "Questrial", "Times New Roman", serif;
+					text-align: center;
+					margin: -14px 0px 15px 0px !IMPORTANT;
+					}
+					
+					#separador {
+					width: 98%;
+					border-style: inset;
+					border-width: 1px;
+					margin-top: 10px;
+					}
+					
+					#imagen {
+					
+					height: 440px;
+					margin: 0px auto;
+					}
+					
+			
+					#contenedor{
+					width: 100%;
+					}
+					
+			
+ 					#botonesNav{
+					display: none;
+					}
+			
+					#botonesNav button{
+					margin: 0px auto;
+					border: 0.1px solid grey;
+					display: block;
+					float: left;
+					text-align: center;
+					text-decoration: none;
+					font-family: Questrial, Arial, sans-serif;
+					font-size: 17px;
+					cursor: pointer;
+					width: 25%;
+					height: 59px;
+					}
+					
+					.botonNoSeleccionado{
+					background-color: #F2F4F4;
+					font: bold 17.00px "Questrial", "Times New Roman", serif;
+					border: 0.1px solid grey;
+					text-align: center;
+					text-decoration: none;
+					cursor: pointer;
+					width: 100%;
+					height: 67px;
+					}
+
+					.botonSeleccionado{
+					background-color: #EE9D13;
+					font: bold 17.00px "Questrial", "Times New Roman", serif;
+					color: white;
+					border: 0.1px solid grey;
+					text-align: center;
+					text-decoration: none;
+					cursor: pointer;
+					width: 100%;
+					height: 67px;
+					}
+					
+					#contenido{
+					width: 87%;
+					float: right;
+					background-color: #fff;
+					}
+					
+			
+					#superior{
+					width: 100%;
+					padding: 10px;
+					margin-bottom: 25px;
+					background:#fff;
+					}
+					
+					.textoNombre{
+					font: 24.00px "Questrial", "Times New Roman", serif;
+					margin-left: 20px;
+					margin-bottom: 30px;
+					}
+					
+					#titulo-usage td{
+					border-top:none;
+					text-align:center;
+					padding: 0px 0px 0px 0px;
+					}
+					
+					#tituloU{
+					font: 21.33px "Questrial", "Times New Roman", serif;
+					background-color:#E5E8E8;
+					height: 40px;
+					text-align:center;
+					}
+					
+					#subtituloU{
+					font: 17.00px "Questrial", "Times New Roman", serif;
+					}
+					
+					#subtituloU2{
+					font: 13.33px "Questrial", "Times New Roman", serif;
+					}
+					
+					#previous-balance{
+					border: none !IMPORTANT;
+					width:97%;
+					}
+
+					#previous-balance td{
+					padding:8px 0px 0px 0px;
+					}
+
+					#previous-balance td:nth-child(2) {
+					text-align: right;
+
+					}
+					
+					#usage-profile td{
+					padding:0px 0px 0px 0px;
+					height:12px;
+					border-top: none;
+					}
+					
+					#data-charges td{
+					padding:4px 0px 0px 0px;
+					height:12px;
+					border-top: none;
+					}
+					
+					#data-charges td:nth-child(5) {
+					text-align: right;
+					}
+					
+					#data-charges td:nth-child(1) {
+					text-indent:5px
+					}
+					
+					.trAzul{
+					font: 18.00px "Questrial", "Times New Roman", serif;
+					background-color: #EE9D13 !IMPORTANT;
+					color: white;
+					}
+					
+					.trAzul2{
+					font: 14.00px "Questrial", "Times New Roman", serif;
+					background-color: #EE9D13 !IMPORTANT;
+					color: white;
+					}
+
+					.trGris{
+					font: 17.00px "Questrial", "Times New Roman", serif;
+					background-color: #E5E8E8 !IMPORTANT;
+					}
+					
+					.trGris2{
+					font: bold 14.33px "Questrial", "Times New Roman", serif;
+					background-color: #E5E8E8 !IMPORTANT;
+					}
+					
+					.textoTotal{
+					font: bold 17.00px "Questrial", "Times New Roman", serif;
+					
+					}
+					
+					.textoTotalDetails{
+					font: bold 17.00px "Questrial", "Times New Roman", serif;
+					width:85% !IMPORTANT;
+					height:35px !IMPORTANT;
+					padding-top: 40px !IMPORTANT;
+					}
+					
+					.textoTotalDetails2{
+					font: bold 17.00px "Questrial", "Times New Roman", serif;
+					width:15% !IMPORTANT;
+					padding-left: 5px !IMPORTANT;
+					padding-top: 40px !IMPORTANT;
+					}
+					
+					.tituloDetails {
+					width:100% !IMPORTANT;
+					padding-left: 42% !IMPORTANT;
+					}
+
+					.tableLinea{
+					border-bottom: 1pt solid gray !IMPORTANT;
+					}
+
+					.tabletxt{
+					font: 17.00px "Questrial", "Times New Roman", serif;
+					}
+					
+					.tabletxt2{
+					font: 14.00px "Questrial", "Times New Roman", serif;
+					}
+					
+					.azul{
+					color: #EE9D13;
+					}
+
+					.textoInf{
+					font: 20.00px "Questrial", "Times New Roman", serif;
+					}
+
+					.rojo{
+					color: #45AA68;
+					font: 50.00px "Questrial", "Times New Roman", serif;
+					}
+
+					.noMargin{
+					margin: 0px auto;
+					}
+
+					.textoSmall{
+					font: 17.00px "Questrial", "Times New Roman", serif;
+					}
+
+					.textoVerySmall{
+					font: 11.00px "Questrial", "Times New Roman", serif;
+					}
+					
+					#a1{
+					text-decoration: none;
+					}
+					
+					.margenTop{
+					margin-top: 10px;
+					}
+					
+					.paddingRight{
+					padding-right: 50px !IMPORTANT;
+					}
+					
+					.texto3{
+					font-family:"Questrial", "Times New Roman", serif;
+					font-size: 18.00px;
+					}
+
+					.margenchartTop{
+					margin-top:3px;
+					}
+
+					#summary, #usage, #details{
+					display:none;
+					}
+					
+					
+					
+					 #details .table-fixedheader {
+					width: 100%;   
+					} 
+					
+					#details .table-fixedheader, #details .table-fixedheader>thead, #details .table-fixedheader>tbody, #details .table-fixedheader>thead>tr, #details .table-fixedheader>tbody>tr, #details .table-fixedheader>thead>tr>th, #details .table-fixedheader>tbody>td {
+					display: block;
+					}
+					
+					#details .table-fixedheader>thead>tr:after, #details .table-fixedheader>tbody[id="data"]>tr:after {
+					content:' ';
+					display: block;
+					clear: both;
+					}
+					
+					#details .table>thead>tr>th {
+					vertical-align: bottom;
+					border-bottom: none;
+					}
+					
+					#details .table-fixedheader>tbody[id="data"] {
+					overflow-y: scroll;
+					height: 50%;
+					}
+					
+					#details .table-hover tbody[id="data"] tr:hover td {
+					background-color: #D9EFF9;
+					}
+					
+					#details .table-fixedheader>thead tr th, #details .table-fixedheader>tbody tr td {
+					float: left;    
+					word-wrap:break-word;     
+					}
+					
+					#inferior{
+					width: 100%;
+					background-color: #fff;
+					display: flex;
+					align-items: center;
+					}
+
+					#videoY{
+					width: 50%;
+					padding: 12px 15px 12px 25px;
+					}
+
+					#videoR{
+					display: none;
+					width: 50%;
+					padding: 12px 15px 12px 25px;
+					}
+
+					#informacion{
+					width: 50%;
+					padding: 25px;
+					font: bold 17.00px "Questrial", "Times New Roman", serif;
+					}
+
+					#link{
+					width: 144px;
+					height: 40px;
+					background-color: #EE9D13;
+					text-align: center;
+					color: white;
+					padding-top: 8px;
+					
+					display: inline-block;
+					}
+
+					#link1{
+					width: 144px;
+					height: 40px;
+					background-color: #EE9D13;
+					text-align: center;
+					color: white;
+					padding-top: 12px;
+					margin: 5% 32%;					
+					}
+										
+					.cboton{
+					background:none;
+					position: absolute;
+					width:15%;
+					height:7%;
+					left: 45%;
+					top: 40%;
+					}
+					
+					#separador2 {
+					width: 95%;
+					border-style: inset;
+					border-width: 1px;
+					margin: 0px auto;
+					}
+
+				
+					#footer{
+					width: 100%;
+					background-color: #5B5B5B;
+					color:white;
+					font: 17.00px "Questrial", "Times New Roman", serif;
+					}
+
+					#separador1 {
+					width: 85%;
+					border-style: inset;
+					border-width: 1px;
+					}
+
+					.margen {
+					padding: 20px 95px;
+					}
+
+					.margen2 {
+					margin-top: -40px;
+					}
+
+					.cl{
+					background:green;
+					}
+
+					.margen3{
+					padding: 0px 0px 0px 95px;
+					}
+
+					br{
+					margin-bottom:100px;
+					}
+
+					#lista ul{
+					list-style:none;
+					}
+
+					.texto{
+					font-family:"Questrial", "Times New Roman", serif;
+					font-size: 13.33px;
+					line-height: 14.00px;
+					}
+					
+					.textSumary{
+					
+					font-weight: bold !IMPORTANT;
+				
+					}
+					
+					.textSumary2{
+					
+					text-align: right;
+				
+					}
+					
+					.textSumary3{
+					
+					font-weight: bold !IMPORTANT;
+					text-align: right;
+					}
+
+					.texto2{
+					font-family:"Questrial", "Times New Roman", serif;
+					font-size: 13.33px;
+					line-height: 30.00px;
+					}
+
+					.margen4{
+					padding: 0px 0px 0px 0px;
+					}
+
+					.margen5{
+					margin-top: 0px;
+					}
+
+					.margen6{
+					padding: 0px 0px 0px 60px;
+					}
+
+					.margen7{
+					padding: 0px 0px 0px 95px;
+					}
+
+					.alto {
+					height: 30px;
+					display: inline-block;
+					}
+
+					.alto2 {
+					height: 30px;
+					}
+
+					ul li {
+					height:14px;
+					}
+					
+					.row{
+					margin: 0px auto;
+					}
+					
+					#billing-summary tr td{
+					border: 0;
+					}
+					
+				
+				@media screen and (max-width: 770px) {
+					body{ background-color:#fff !IMPORTANT; }
+					#contCabecera {width: 100% !IMPORTANT;}
+					#cabecera {width: 100% !IMPORTANT;}
+					#logo { float: rone !IMPORTANT; width: 100% !IMPORTANT;}
+					#banner { float: rone !IMPORTANT; width: 100% !IMPORTANT;}
+					#tablaC{ display: none !IMPORTANT; }
+					#botonesNav { display: block !IMPORTANT; }
+					.espaciador { display: none !IMPORTANT; }
+					#footer { display: none !IMPORTANT; }
+					#informacion{ display: none !IMPORTANT }
+					#contenido{ width: 100% !IMPORTANT }
+					#videoY{ width: 100% !IMPORTANT }
+					#videoR{ width: 100% !IMPORTANT }
+					#pie{ display: none !IMPORTANT }
+					#donut{ display: none !IMPORTANT }
+					#duration{ width: 10% !IMPORTANT; padding-left:6px !IMPORTANT; }
+					}
+
+					@media screen and (max-width: 1225px) {
+					#cuerpo {width: 100% !IMPORTANT;}
+					.espaciador{width: 13% !IMPORTANT;}
+					
+					}
+
+					@media screen and (max-width: 990px) {
+					#lista { display: none !IMPORTANT; }
+					}			
+				</style>
+</head>
+<body onload="StartPage()">
+{% if user.is_authenticated %}
+    <a href="{% url 'accounts:logout'%}?next={{request.path}}">Logout</a>
+<div id="cuerpo" class="container">
+<div id="cabecera" class="row">
+<div id="contCabecera" class="row">
+<div class="col-lg-4 col-md-4 col-sm-4">
+<img id="logo" class="img-responsive" src="https://farm5.staticflickr.com/4449/26473096039_e93d97dc5a_b.jpg"></div>
+<div class="col-lg-4 col-md-4 col-sm-4">
+<img id="logo2" class="img-responsive" src="https://farm5.staticflickr.com/4583/26662671969_0fd8427e9b.jpg"></div>
+<div id="tablaCabecera" class="col-lg-4">
+<table id="tablaC" class="table-responsive enunciado">
+<tr>
+<td><b>N&uacute;mero de Cuenta:</b></td><td>02435681</td>
+</tr>
+<tr>
+<td><b>Total Facturado:</b></td><td><b>S/128.66</b></td>
+</tr>
+<tr>
+<td><b>N&uacute;mero telef&oacute;nico:</b></td><td>(+51) 944852858</td>
+</tr>
+<tr>
+<td><b>Ciclo de Facturaci&oacute;n:</b></td><td>10/01/17-10/02/17</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="banner">
+<img id="imagen" class="img-responsive" src="https://farm5.staticflickr.com/4530/26512969139_8332455b7b_z.jpg"><hr id="separador">
+<h3 class="tituloBanner">
+<b>Estado de cuenta del mes</b>
+</h3>
+</div>
+</div>
+<div id="contenedor" class="row">
+<div id="botonesNav">
+<button id="btnOverviewNav" onclick="Overview()" class="botonSeleccionado">General</button><button id="btnUsageNav" onclick="Usage()" class="botonNoSeleccionado">Consumo</button><button id="btnDetailsNav" onclick="Details()" class="botonNoSeleccionado">Detalle</button><button id="btnSummaryNav" onclick="Summary()" class="botonNoSeleccionado">Resumen</button>
+</div>
+<div class="espaciador" id="menu">
+<button id="btnOverview" onclick="Overview()" class="botonSeleccionado">General</button><button id="btnUsage" onclick="Usage()" class="botonNoSeleccionado">Consumo</button><button id="btnDetails" onclick="Details()" class="botonNoSeleccionado">Detalle</button><button id="btnSummary" onclick="Summary()" class="botonNoSeleccionado">Resumen</button>
+</div>
+<div id="contenido">
+<div id="superior">
+<div id="overview" class="row">
+<div id="resumenC" class="col-lg-6 col-md-6 col-sm-6">
+<h3 class="textoNombre">Hola <b>Nicholas</b>
+</h3>
+<table id="previous-balance" class="table table-responsive">
+<tr class="trAzul">
+<td colspan="2"><b>Resumen - Nacional llamadas y Textos 1500</b></td>
+</tr>
+<tr class="trGris">
+<td>Saldo Previo</td><td class="text-right">S/112.21</td>
+</tr>
+<tr class="trGris">
+<td>Pago recibido en 10/01 - Gracias!</td><td class="text-right">(S/112.21)</td>
+</tr>
+<tr class="trGris">
+<td>Saldo Anterior</td><td class="text-right">S/0.00</td>
+</tr>
+<tr class="tabletxt tableLinea">
+<td><b>Cargos mensuales</b></td><td class="text-right">S/128.66</td>
+</tr>
+<tr>
+<td class="tabletxt">Cargos Mensuales por Servicios</td><td class="tabletxt">S/105.00</td>
+</tr>
+<tr>
+<td class="tabletxt">Cargos de consumo</td><td class="tabletxt">S/4.05</td>
+</tr>
+<tr>
+<td class="tabletxt">Otros Cargos y Cr&eacute;ditos</td><td class="tabletxt">S/6.21</td>
+</tr>
+<tr>
+<td class="tabletxt">Impuestos, Cargos Estatales y Otras Tarifas</td><td class="tabletxt">S/13.40</td>
+</tr>
+<tr class="tabletxt">
+<td>Total cargos mensuales*</td><td class="text-right">S/128.66</td>
+</tr>
+<tr class="tabletxt tableLinea">
+<td><b>Total facturado al - 15/02/17</b></td><td class="text-right"><b>S/128.66</b></td>
+</tr>
+</table>
+<div id="link">
+<a id="a1" class="texto3" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=ENVY-x3" title="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=ENVY-x3" target="_blank"><b style="color:white">Pagar Recibo</b></a>
+</div>
+<div id="link" style="float:right; margin-right: 3%;">
+<a id="a1" class="texto3" href="http://soapros.pe/html/Recibo_02435681.pdf" download="Recibo_02435681.pdf"><b style="color:white">Descarga PDF</b></a>
+</div>
+</div>
+<div id="pie" class="col-lg-6 col-md-6 col-sm-6 paddingRight">
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 margenTop">
+<p class="textoInf text-right noMargin">
+<b>Su saldo actual:</b>
+</p>
+<p class="textoSmall text-right">al <b>10/02/17</b>
+</p>
+</div>
+<div class="col-lg-5 col-md-5 col-sm-5">
+<p class="rojo noMargin">
+<b>S/128.66</b>
+</p>
+<p class="azul textoVerySmall text-right">
+<b>Su saldo anterior: </b>S/112.21</p>
+</div>
+</div>
+<div class="row col-sm-12 col-md-12 col-lg-12 margenchartTop">
+<div id="chartpie"></div>
+</div>
+</div>
+</div>
+<div id="usage" class="row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<table id="titulo-usage" class="table table-responsive">
+<tr>
+<th id="tituloU"><b>Consumo actual facturado</b></th>
+</tr>
+<tr>
+<td id="subtituloU"><b>Periodo de facturaci&oacute;n: </b>10/01/17-10/02/17</td>
+</tr>
+<tr>
+<td id="subtituloU2"><b>Periodo de facturaci&oacute;n completo: </b>Revisar recibo de facturaci&oacute;n al 10/02/17</td>
+</tr>
+</table>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+<table id="usage-profile" class="table table-responsive">
+<tr class="trAzul" style="height:35px">
+<td colspan="2" style="text-indent:5px; padding: 4px 0px 0px 0px;"><b>Perfil de consumo</b></td>
+</tr>
+<tr class="trGris" style="height:25px">
+<td colspan="2" style="text-indent:10px; padding: 3px 0px 0px 0px;"><b>Cargos de Voz</b></td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">Plan de Llamadas</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">1500</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">1244</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">M&oacute;vil a m&oacute;vil</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">unlimited</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">753</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">Noches/Fin de Semana</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">unlimited</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">609</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">Llamadas de Larga Distancia Internacional</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">100</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">116</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">16.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">8.00</td>
+</tr>
+<tr id="fin-voice-Charges">
+<td class="textoTotal"><b>Total Cargos de Voz</b></td><td class="text-right"><b>S/16.00</b></td>
+</tr>
+<tr id="start-message-Charges" class="trGris" style="height:25px">
+<td colspan="2" style="text-indent:10px; padding: 3px 0px 0px 0px;"><b>Cargos de Mensajes</b></td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">Mensajes de Texto</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">unlimited</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">785</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">Mensajes Multimedia</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">50</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">5</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">Mensajes de Imagen</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">0</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">2</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">2.00</td>
+</tr>
+<tr>
+<td></td><td class="tabletxt">12.45</td>
+</tr>
+<tr id="fin-message-Charges">
+<td class="textoTotal"><b>Total Cargos de Mensajes</b></td><td class="text-right textoTotal"><b>S/2.00</b></td>
+</tr>
+</table>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+<table id="data-charges" class="table table-responsive">
+<tr class="trAzul" style="height:35px">
+<td colspan="5" style="text-indent:5px; padding: 4px 0px 0px 0px;"><b>Cargos de Datos</b></td>
+</tr>
+<tr class="trGris2" style="height:25px">
+<td style="text-indent:5px; width: 35%;"><b>Tipo</b></td><td><b>Incluido</b></td><td><b>Consumido(Mb)</b></td><td><b>Facturado</b></td><td><b>Costo</b></td>
+</tr>
+<tr id="data">
+<td class="tabletxt2">Plan de Datos Familia, Amigos y Redes Sociales</td><td class="tabletxt2">unlimited</td><td class="tabletxt2">312118</td><td class="tabletxt2">4.05</td><td class="tabletxt2">4.05</td>
+</tr>
+<tr>
+<td style="border-top:1px #0096D6 solid; text-indent:5px;" class="textoTotal"><b>Total Cargos de Datos</b></td><td colspan="4" class="text-right textoTotal" style="border-top:1px #0096D6 solid;"><b>S/4.05</b></td>
+</tr>
+</table>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-6 margenchartTop">
+<div id="donut" style="height: 400px"></div>
+</div>
+</div>
+<div id="details" class="row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<div class="panel panel-default">
+<div class="panel-body">
+<table id="details-charges" class="table table-fixedheader table-striped table-hover">
+<thead>
+<tr class="trAzul">
+<th class="tituloDetails"><b>Detalles de Cargo</b></th>
+</tr>
+<tr class="trAzul2">
+<th style="width:15%"><b>N&uacute;mero Destino</b></th><th style="width:11%; padding-left:2px;"><b>Operador</b></th><th style="width:9%; padding-left:0px;"><b>Modalidad</b></th><th style="width:9%; padding-left:5px;"><b>Entrante/Saliente</b></th><th style="width:13%; padding-left:20px"><b>Destino</b></th><th style="width:10%; padding-left:0px"><b>Fecha Inicio</b></th><th style="width:8%; padding-left:17px"><b>Hora Inicio</b></th><th id="duration" style="width:11%; padding-left:24px;"><b>Duraci&oacute;n</b></th><th style="width:14%; padding-left:7px"><b>Costo</b></th>
+</tr>
+<tr>
+<td colspan="2"><span style="font-size:10px;">Buscar: &nbsp;</span><input id="buscar" type="text" onkeyup="BuscarTablaDetails()"></td>
+</tr>
+</thead>
+<tbody id="data">
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:10'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Americatel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Internacional</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">1:03'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:10'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Americatel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Internacional</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">1:03'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:10'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Americatel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Internacional</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">1:03'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:10'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:10'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Americatel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Internacional</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">1:03'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:10'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">04:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">04:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">04:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">04:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">04:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">05:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:02'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">05:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:02'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">05:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:02'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">05:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:02'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">10/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">05:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:02'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">11/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">11/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">11/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">11/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">11/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">11/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Bitel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">11/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:04'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">12/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">12/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">12/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">12/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">12/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">12/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Claro</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Saliente</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">12/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">13/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">13/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">13/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">13/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">13/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">13/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Movistar</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">13/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">14/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">14/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">14/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">14/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">14/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">14/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+<tr>
+<td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">(+51) 944852858</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entel</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Libre</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Entrante</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">Local</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">14/01/2016</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">02:46'53''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">0:00'58''</td><td class="tabletxt2" style="width:12.5% ; padding: 0px 0px 0px 0px;">S/0.00</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="textoTotalDetails"><b>Total Detalles de Cargo</b></td><td class="textoTotalDetails2"><b>S/0.00</b></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="summary" class="row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<table id="billing-summary" class="table  table-responsive">
+<thead>
+<tr class="trAzul">
+<td colspan="2"><b>Resumen de Facturaci&oacute;n</b></td>
+</tr>
+</thead>
+<tr class="tabletxt">
+<td>Cargos Mensuales por Servicios</td><td>(6.66)</td>
+</tr>
+<tr class="tabletxt">
+<td>Plan de Voz y Texto a nivel nacional 1500</td><td>105.00</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos adicionales de consumo</td><td>0.00</td>
+</tr>
+<tr class="tabletxt">
+<td>Total de Cargos Mensuales por Servicios</td><td>105.00</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos de consumo</td><td>(6.66)</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos de Voz</td><td>0.00</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos de Mensajes</td><td>0.00</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos de Datos</td><td>4.05</td>
+</tr>
+<tr class="tabletxt">
+<td>Total de Cargos de consumo</td><td>4.05</td>
+</tr>
+<tr class="tabletxt">
+<td>Otros Cargos y Cr&eacute;ditos</td><td>(6.66)</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos de Servicios Federados</td><td>2.60</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos de Servicios para el Hogar</td><td>2.60</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos de Servicios Estatales</td><td>1.01</td>
+</tr>
+<tr class="tabletxt">
+<td>Total de Otros Cargos y Cr&eacute;ditos</td><td>6.21</td>
+</tr>
+<tr class="tabletxt">
+<td>Impuestos, Cargos Estatales y Otras Tarifas</td><td>(6.66)</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos por Comunicaciones de Seguridad P&uacute;blica</td><td>2.60</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos por Mantenimiento de Redes P&uacute;blicas</td><td>3.02</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos por Servicios Locales</td><td>4.15</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos por Terceros</td><td>0.54</td>
+</tr>
+<tr class="tabletxt">
+<td>Cargos por Mantenimiento de Redes Locales</td><td>1.56</td>
+</tr>
+<tr class="tabletxt">
+<td>Otros Cargos P&uacute;blicos</td><td>1.53</td>
+</tr>
+<tr class="tabletxt">
+<td>Total de Impuestos, Cargos Estatales y Otras Tarifas</td><td>13.40</td>
+</tr>
+<tr class="trGris">
+<td><b>Total Cargos Mensuales</b></td><td><b>S/128.66</b></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<hr id="separador2">
+<div id="inferior" class="row">
+<div id="videoY" class="col-lg-6 col-md-6 col-sm-6">
+<div class="embed-responsive embed-responsive-16by9">
+<div class="videoAutoPlay" id="player"></div>
+</div>
+</div>
+<div id="videoR" class="col-lg-6 col-md-6 col-sm-6">
+<div class="embed-responsive embed-responsive-16by9">
+<video id="Video1" src="https://www.youtube.com/embed/wmEqgjT61FA" poster="https://images.apple.com/v/iphone-x/e/images/overview/modal/design_hero_large.jpg" class="embed-responsive-item ">
+											Tu navegador no admite el elemento <code>video</code>.
+											
+										</video>
+<div class="cboton">
+<button type="button" id="botonplay" class="boton btn btn-danger active btn-block btn-lg" onclick="Vidplay()"><i class="fa fa-play"></i></button>
+</div>
+</div>
+</div>
+<div id="informacion" class="col-lg-6 col-md-6 col-sm-6">
+<h3 class="textoInf azul">
+<b>IPhone X</b>
+</h3>
+<h3 class="textoInf">
+<b>Una mente brillante.</b>
+</h3>
+<p>Desde un principio nuestro objetivo fue crear un iPhone que fuera todo pantalla. Un dispositivo tan envolvente que pr&aacute;cticamente desapareciera al usarlo. Tan inteligente que respondiera a un toque, a una palabra o a una mirada. Hoy el iPhone X hace realidad ese objetivo. Dile hola al futuro. En el iPhone X, el dispositivo es la pantalla. Cuando lo tengas en la mano, la nueva Super Retina de 5.8 pulgadas te deslumbrar&aacute; por completo.</p>
+<a id="a1" href="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=ENVY-x3" title="http://store.hp.com/us/en/ContentView?storeId=10151&amp;catalogId=10051&amp;langId=-1&amp;eSpotName=ENVY-x3" target="_blank">
+<div id="link1">
+<b>
+<p>Saber m&aacute;s</p>
+</b>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<footer id="footer" class="row">
+<div class="row">
+<div class="col-md-12">
+<p class="margen texto">
+<b>Estados Unidos de Norteam&eacute;rica</b>
+</p>
+</div>
+<div class="margen2 col-md-12">
+<hr id="separador1">
+</div>
+<div id="lista" class="col-sm-3 col-md-3">
+<ul class="margen3 texto">
+<li class="alto">
+<b>Acerca de Exstream</b>
+</li>
+<li>Contactar Exstream</li>
+<li>Carreras</li>
+<li>Investigaciones</li>
+<li>Sostenibilidad</li>
+<li>Noticias</li>
+</ul>
+</div>
+<div id="lista" class="col-sm-3 col-md-3">
+<ul class="margen6 texto">
+<li class="alto">
+<b>Comprar</b>
+</li>
+<li>Vendedores locales</li>
+<li>Contactar representantes</li>
+<li class="alto">Encontrar un vendedor</li>
+<li class="alto2">
+<b>Exstream Partners</b>
+</li>
+<li>Exstream Partner first program</li>
+</ul>
+</div>
+<div id="lista" class="col-sm-3 col-md-3">
+<ul class="margen4 texto">
+<li class="alto">
+<b>Soporte</b>
+</li>
+<li>Descargar drivers</li>
+<li>Soporte y soluci&oacute;n a problemas</li>
+<li>Registrar tu producto<br>
+</li>
+<li>Gesti&oacute;n de soporte comercial</li>
+<li>Proveedores autorizados</li>
+<li>Verificar estado de solicitudes</li>
+</ul>
+</div>
+<div id="lista" class="col-sm-3 col-md-3">
+<ul class="margen4 texto">
+<li class="alto">
+<b>Mantenerse en contacto</b>
+</li>
+<li>Suscribirse para ofertas y noticias</li>
+</ul>
+</div>
+<div class="margen5 col-md-12">
+<hr id="separador1">
+</div>
+<div class="col-md-12">
+<p class="margen7 texto2">
+<b>Avisos | Reciclaje | Mapa del sitio | Privacidad | T&eacute;rminos de uso | Cookies y publicidad | Declaraci&oacute;n de l&iacute;mites de garant&iacute;a<br>
+
+								Exstream se ha dividido en dos compa&ntilde;&iacute;as para los productos empresariales. Dir&iacute;jase a Soa Professionals Per&uacute;.<br>
+
+								&copy; Copyright 2015 Exstream Development Company, L.P.<br>
+
+								Exstream employees: Report website issues</b>
+</p>
+</div>
+</div>
+</footer>
+</div>
+{% else %}
+     <li><a href="{% url 'accounts:login'%}?next={{request.path}}">Login</a></li>
+   {% endif %}
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script src="http://code.highcharts.com/highcharts.js"></script><script src="https://code.highcharts.com/modules/exporting.js"></script><script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script><script>
+(function () {    var div = document.createElement("div");    document.getElementsByTagName('body')[0].appendChild(div);    div.outerHTML = "<div id='botDiv' style='height: 38px; right: 20px; position: fixed; bottom: 0; z-index: 1000; background-color: #fff'><div id='botTitleBar' style='height: 38px; width: 400px; position:fixed; cursor: pointer; font-size:18;padding-top:1px; padding-left:7px;background-color: #EE9D13; color:#fff'><img src='http://www.soapros.com/images/logo-small.png' width='60' height='42'>Chatea con nosotros</div><iframe id='chatSoa' width='400px' height='600px' src='https://webchat.botframework.com/embed/demosoa?s=WHFNbm4Sg1E.cwA.3uY.RJf64sMsCdEHMKzQ4exdtWTuwAXV6aR5Xo6HTec_JV8' ></iframe></div>";     document.querySelector('body').addEventListener('click', function (e) {        e.target.matches = e.target.matches || e.target.msMatchesSelector;        if (e.target.matches('#botTitleBar')) {             var botDiv = document.querySelector('#botDiv');             botDiv.style.height = botDiv.style.height == '600px' ? '38px' : '600px';			$("#chatSoa").show();        };    });}());						
+
+				var images = [], x = -1;
+				images[0] = "https://images.apple.com/v/iphone-x/e/images/overview/modal/design_hero_large.jpg";
+				images[1] = "https://images.apple.com/v/iphone-x/e/images/overview/primary/design_gestures_startframe_large.jpg";
+				images[2] = "https://images.apple.com/v/iphone-x/e/images/overview/primary/design_all_new_large.jpg";
+				images[3] = "https://farm5.staticflickr.com/4530/26512969139_8332455b7b_z.jpg";
+
+				// Arreglo para la data del grafico tipo pie.
+				var array = [];
+				
+				function StartPage() {
+				
+					//Asigna intervalos a las imagenes que se muestran en el Banner de la pagina
+					setInterval(displayNextImage, 3000);
+					
+					CrearChart();
+				
+				}
+				
+				$(document).ready(function(){
+				
+					LLenarArray();
+					OrdenarTablaUsage();
+					CrearChartdonut();
+					OrdenarTablaDetails();
+					BuscarTablaDetails();
+					OrdenarTablaBillingSummary();
+					
+					
+				});
+				
+				//Reproduce el video que esta referenciado de forma local.
+				function Vidplay() {
+				
+					var video = document.getElementById("Video1");
+					var button = document.getElementById("play");
+					var botonp = document.getElementById("botonplay");
+					
+					if (video.paused) {
+					
+						video.play();
+						video.controls=true;
+						botonp.style.display = 'none';
+						button.textContent = "||";
+					}	else {
+				
+							video.pause();
+							button.textContent = ">";
+						}		
+				}
+				
+				//Muestra las imagenes en el banner de la pagina.
+				function displayNextImage() {
+				
+					x = (x === images.length - 1) ? 0 : x + 1;
+					document.getElementById("imagen").src = images[x];
+				}
+				
+				function BuscarTablaDetails(){
+		
+					var tableReg = document.getElementById('details-charges');
+					var searchText = document.getElementById('buscar').value.toLowerCase();
+					var cellsOfRow="";
+					var found=false;
+					var compareWith="";
+
+					// Recorremos todas las filas con contenido de la tabla, se comienza a recorrer despues del search
+					// por eso el valor 3 en la variable i.
+					// El siguiete "<" significa menor.
+					for (var i = 3; i < tableReg.rows.length-1; i++){
+						cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
+						found = false;
+						
+						// Recorremos todas las celdas
+						for (var j = 0; j < cellsOfRow.length; j++){
+				
+							// El valor o el contenido de la celda se coloca en letra minuscula
+							compareWith = cellsOfRow[j].innerHTML.toLowerCase();
+							
+							// Buscamos el texto en el contenido de la celda
+							if (searchText.length == 0 || (compareWith.indexOf(searchText) > -1)){
+								found = true;
+							}
+						}		
+							if(found){
+								tableReg.rows[i].style.display = '';
+							} else {
+									// si no ha encontrado ninguna coincidencia, esconde la
+									// fila de la tabla
+									tableReg.rows[i].style.display = 'none';
+							}
+					}
+				}
+				
+								//Ordena y dar los estilos necesarios para que la tabla se muestra de forma correcta. 
+				function OrdenarTablaBillingSummary(){
+				
+					// variable que va ir recorriendo cada celda para asignale sus estilos de acuerdo a su valor.
+					var con = 0;
+					
+					//Se recorre todas las celdas que estan contenidas en el tbody para darles los estilos necesarios
+					// y se muestre ordenado.
+					$("table#billing-summary tr").each(function(index){
+						
+						var patrn = /^[[$][0-9]+([.][0-9]{2})]?$/;
+							
+							$("td", this).each(function( j ) {
+	
+								
+								if(j==1){
+								
+									$(this).attr("class","textSumary2");
+									$(this).css("font","16.00px Questrial, Times New Roman, serif");
+									if ($(this).text()=="(6.66)"){
+									$(this).empty();
+									var hermano =$(this).siblings();
+									var padre =$(this).parent('tr');
+									$(hermano).attr("class","textSumary");
+									$(padre).css("background-color","#E5E8E8");
+									}
+								
+								}
+							});
+							
+							$("td", this).each(function( j ) {
+	
+								
+									if(j==0){
+										var str1 = $(this).text();
+										var str2 = "Total de ";
+										if(str1.indexOf(str2) != -1){
+											$(this).attr("class","textSumary");
+											$(this).attr("style","border-top:1px #0096D6 solid;");
+											var hermano1 = $(this).siblings();
+											$(hermano1).css("border-top","1px #0096D6 solid");
+											$(hermano1).attr("class","textSumary3");
+											$(hermano1).prepend("S/");
+									
+										}
+									}
+								});
+																		
+						});
+					
+				}
+				
+				//Ordena y dar los estilos necesarios para que la tabla se muestra de forma correcta. 
+				function OrdenarTablaDetails(){
+				
+					// variable que va ir recorriendo cada celda para asignale sus estilos de acuerdo a su valor.
+					var con = 0;
+					
+					//Se recorre todas las celdas que estan contenidas en el tbody para darles los estilos necesarios
+					// y se muestre ordenado.
+					$("table#details-charges tbody tr td").each(function(index,element){
+					
+						if (con == 0){
+						
+							$(element).css("width","14%");
+							
+							$(element).css("padding-left","7px");
+							$(element).css("padding-top","1%");
+						}
+						if (con == 1){
+						
+							$(element).css("width","12%");
+							
+							$(element).css("padding-left","11px");
+							$(element).css("padding-top","1%");
+						}
+						if (con == 2){
+						
+							$(element).css("width","10%");
+							$(element).css("padding-left","5px");
+							$(element).css("padding-top","1%");
+						}
+						
+						if (con == 3){
+						
+							$(element).css("width","10%");
+							$(element).css("padding-left","5px");
+							$(element).css("padding-top","1%");
+						}
+						if (con == 4){
+						
+							$(element).css("width","12%");
+							
+							
+							$(element).css("padding-left","13px");
+							$(element).css("padding-top","1%");
+						}
+						if (con == 5){
+						
+							$(element).css("width","12%");
+							
+							$(element).css("padding-left","1px");
+							$(element).css("padding-top","1%");
+						}
+						if (con == 6){
+						
+							$(element).css("width","9%");
+							
+							$(element).css("padding-left","2px");
+							$(element).css("padding-top","1%");
+							}
+						if (con == 7){
+						
+							$(element).css("width","9%");
+							
+							$(element).css("padding-left","6px");
+							$(element).css("padding-top","1%");
+						}
+						if (con == 8){
+						
+							$(element).css("width","12%");
+							
+							$(element).css("padding-left","3px");
+							$(element).css("padding-top","1%");
+						}
+						
+						if(con != 8){
+						
+							con++;
+						}else
+							con = 0;
+					});
+				}
+				
+			//Ordenar la tabla Usage Profile
+			function OrdenarTablaUsage(){
+				
+				var index3 = 0;
+				var index2 = 0;
+				var index4 = 0;
+				var index5 = 0;
+				
+				// Se recorre todas las filas (tr) y se guarda la cantidad de filas recorridas hasta llegar a la fila (tr) con id="fin-voice-Charges",
+				// se guarda guarda la cantidad en index2 y luego se realiza una operacion para ser guardado en index3 donde contendra el total de columnas a recorrer
+				$("table#usage-profile tr").each(function(index,element){
+				
+					if ($(element).attr('id') == "fin-voice-Charges" ) {
+								
+								index2=index;
+					}
+					if ($(element).attr('id') == "fin-message-Charges" ) {
+					
+								index5=index;							
+					}		
+				});
+					index4 = (index2*2);
+					index5 = (index5*2)-3;
+					index3=(index2*2)-2 ;
+					var con = 0;
+					var con1 = 0;
+					
+				// Se recorre todas las columnas con la condición que sea menor a la variable index3 y index sea mayor a 2 para interacturar
+				// con celdas comprendidas entre Voice Charges y Total Message Charges.
+				// y colocar los elementos y atributos necesarios.
+				$("table#usage-profile tr td").each(function(index,element){
+					
+					// Validacion para interactuar con las celdas que estan comprendidas entre Voice Charges y
+					// Total Voice Charges
+					if (index < index3){
+						
+						if (index >= 2){
+						
+							if (con == 2){
+							
+								$(element).remove();
+							}
+							if (con == 3){
+							
+								$(element).attr("colspan","2");
+								$(element).attr("style","border-bottom:1px #EE9D13 solid; text-indent:15;");
+							}
+							if (con == 4){
+							
+								$(element).append("Incluido" );
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+								if (con == 5){
+								
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+							if (con == 6){
+							
+								$(element).append("Usado" );
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+							if (con == 7){
+							
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+							if (con == 8){
+							
+								$(element).append("Facturado" );
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+							if (con == 9){
+							
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+							if (con == 10){
+							
+								$(element).append("Costo" );
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+							if (con == 11){
+							
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+						}
+						
+						if(con != 11){
+							con++;
+						}else
+							con = 2;
+					}
+					// Validacion para interactuar con las celdas que estan comprendidas entre Message Charges y
+					// Total Message Charges	
+					if (index > index4){
+									
+						if (index5 > index){
+					
+							if (con1 == 0){
+								$(element).remove();
+							}
+							if (con1 == 1){
+							
+								$(element).attr("colspan","2");
+								$(element).attr("style","border-bottom:1px #EE9D13 solid; text-indent:15;");
+							}
+							if (con1 == 2){
+							
+								$(element).append("Incluido" );
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+							if (con1 == 3){
+							
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+							if (con1 == 4){
+							
+								$(element).append("Usado");
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+							if (con1 == 5){
+							
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+							if (con1 == 6){
+							
+								$(element).append("Facturado" );
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+							if (con1 == 7){
+							
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+							if (con1 == 8){
+							
+								$(element).append("Costo" );
+								$(element).css("font-size","10");
+								$(element).css("text-indent","30");
+							}
+							if (con1 == 9){
+							
+								$(element).attr("class","text-right");
+								$(element).css("font-size","10");
+							}
+							
+						}
+								
+							if(con1 != 9){
+								con1++;
+							}else 
+								con1 = 0;
+					}								
+				});
+			}
+								
+			//Se llena un array con los datos de la tabla para armar el grafico
+			function LLenarArray(){
+			
+				var con=0;
+				
+				//Se recorre todas las filas de Bill Sumary 
+				$("table#previous-balance tr").each(function( i ) {
+				
+					con++;
+				});
+				
+				con=con-2;
+				
+				// Se recorre las filas comprendidas entre las celdas Current Charges y Total Current Charges
+				$("table#previous-balance tr").each(function( i ) {
+				
+					if (i == 2){
+						$("td", this).each(function( j ) {
+						
+							if (j ==1 && $(this).text()== "(S/0.00)"){
+								
+								$(this).empty();
+									$("table#previous-balance tr td").each(function( x ) {
+								
+										if (x == 3){
+										
+										$(this).empty();
+										$(this).append("Monto Vencido - Por favor cancelar" );
+										$(this).css("color","red");
+									
+										}
+																	
+									});
+								
+							}
+													
+						});
+					}
+					
+					var obj = new Object();
+					
+					if(i>4){
+					
+						if(con>i){
+							
+							//Se recorre cada celda y se agregan los valores necesarios a la variable tipo objeto (obj).
+							$("td", this).each(function( j ) {
+							
+								if(j==0){
+								
+									obj.name = $(this).text();
+								}
+								if(j==1){
+								
+									obj.y = Number($(this).text().replace("S/",""));
+								}
+							});
+				
+							array.push(obj);
+						}
+					}
+				});
+			}
+
+			// Se crea el grafico tipo donut en el modulo Usage
+			function CrearChartdonut(){
+			
+				var included = 7000000;				
+				var used = 0;
+				
+				// Se recorre la tabla Data Charges para coger los valores necesarios para el grafico
+				$("table#data-charges tr td").each(function(index,element){
+						
+					
+						
+					if (index == 8){
+						used = $(element).text();
+					}
+				});
+					
+				var mbRest=  included - used;
+				var used2 = parseInt(used);
+				var titulo = "Has usado " +used+ " mb" +" de " +included +" mb";
+				
+				// Se crea un array con los colores necesarios
+				Highcharts.getOptions().plotOptions.pie.colors = (function () {
+					
+					var colors = [],
+					base = Highcharts.getOptions().colors[6],
+					i;
+
+					for (i = 0; i <  10; i += 1) {
+				
+						colors.push(Highcharts.Color(base).brighten((i) / 9).get());
+					}
+					
+					return colors;
+				}())
+				
+				// Se comienza a crear el grafico con los atributos necesarios
+				Highcharts.chart('donut', {
+					
+					chart: {
+						
+						//renderTo: 'container',
+						//plotBackgroundColor: null,
+						//plotBorderWidth: null,
+						//plotShadow: false,
+						type: 'pie'
+						//marginTop: -110,
+						//marginLeft: 50
+					},
+					title: {
+					
+						text: '<p style="font-size:10pt; color:#EE9D13">'+titulo+'</p>',
+						verticalAlign: 'bottom',
+						//y:-115
+					},
+					subtitle: {
+					
+						text: 'Consumo de datos por teléfono'
+					},
+					plotOptions: {
+					
+						pie: {
+						
+							innerSize: 132
+						}
+					},
+					credits: {
+						
+						enabled: false
+					},
+					tooltip: {
+						
+						formatter: function () {
+							
+							return '<b>MB: </b>'+'<b>' + this.y + '</b>';
+						}
+					},					
+					exporting: { 
+						
+						enabled: false 
+					},
+					series: [{
+					
+						data: [{
+						
+							name: 'Mb Restantes',
+							y: mbRest
+						},							
+						{
+							
+							name: 'Usado',
+							y: used2
+						}]
+					}]
+				});
+			}
+			
+			// Se crea el grafico tipo pie para modulo Overview.
+			function CrearChart(){
+				
+				// Se crea un array con los colores necesarios
+				
+				Highcharts.getOptions().plotOptions.pie.colors = (function () {
+					
+					var colors = [],
+					base = Highcharts.getOptions().colors[6],
+					i;
+
+					for (i = 0; i <  10; i += 1) {
+				
+						colors.push(Highcharts.Color(base).brighten((i) / 9).get());
+					}
+					return colors;
+				}())
+
+				// Se comienza a crear el grafico con los atributos necesarios.
+				$('#chartpie').highcharts({
+				
+					chart: {
+						plotBackgroundColor: null,
+						plotBorderWidth: null,
+						plotShadow: false,
+						type: 'pie',
+						marginTop: 80
+					},
+				
+					title: {
+						
+						style: {
+						color: '#EE9D13',
+						fontWeight: 'bold'
+						},
+						
+						text: 'Distribución de cargos mensuales'
+					},
+
+					subtitle: {
+
+						style: {
+							fontWeight: 'bold'
+						},
+						text: '<p style="font-size:15px">15/02/17</p>'
+					},
+					
+					exporting: { 
+					
+						enabled: false 
+					},
+					legend: {
+					
+						labelFormatter: function () {
+							return 'S/'+this.y;
+						}
+					},
+					tooltip: {
+					
+						formatter: function () {
+							return '<b>' + this.point.name + '</b>';
+						}
+					},
+					credits: {
+				
+					enabled: false
+					},
+					plotOptions: {
+					
+						pie: {
+						
+							allowPointSelect: true,
+							cursor: 'pointer',
+								dataLabels: {
+								
+									enabled: false,
+								},
+							showInLegend: true
+						}
+					},
+					
+					series: [{
+					
+						name: 'Brands',
+						colorByPoint: true,
+						data: array
+					}]
+				});
+			}
+
+				// Se ocultan o muestran los contenedores necesarios de acuerdo al boton seleccionado.
+				function Overview(){
+				
+					$("#btnOverview").addClass("botonSeleccionado");
+					$("#btnOverview").removeClass("botonNoSeleccionado");
+
+					$("#btnOverviewNav").addClass("botonSeleccionado");
+					$("#btnOverviewNav").removeClass("botonNoSeleccionado");
+
+					$("#btnUsage").addClass("botonNoSeleccionado");
+					$("#btnUsage").removeClass("botonSeleccionado");
+
+					$("#btnUsageNav").addClass("botonNoSeleccionado");
+					$("#btnUsageNav").removeClass("botonSeleccionado");
+				
+					$("#btnDetails").addClass("botonNoSeleccionado");
+					$("#btnDetails").removeClass("botonSeleccionado");
+
+					$("#btnDetailsNav").addClass("botonNoSeleccionado");
+					$("#btnDetailsNav").removeClass("botonSeleccionado");
+
+					$("#btnSummary").addClass("botonNoSeleccionado");
+					$("#btnSummary").removeClass("botonSeleccionado");
+
+					$("#btnSummaryNav").addClass("botonNoSeleccionado");
+					$("#btnSummaryNav").removeClass("botonSeleccionado");
+
+					$("#videoY").css("display","block");
+					$("#videoR").css("display","none");
+
+					$("#overview").css("display","block");
+					$("#usage").css("display","none");
+					$("#details").css("display","none");
+					$("#summary").css("display","none");
+				}
+
+				function Usage(){
+				
+					$("#btnOverview").addClass("botonNoSeleccionado");
+					$("#btnOverview").removeClass("botonSeleccionado");
+
+					$("#btnOverviewNav").addClass("botonNoSeleccionado");
+					$("#btnOverviewNav").removeClass("botonSeleccionado");
+
+					$("#btnUsage").addClass("botonSeleccionado");
+					$("#btnUsage").removeClass("botonNoSeleccionado");
+
+					$("#btnUsageNav").addClass("botonSeleccionado");
+					$("#btnUsageNav").removeClass("botonNoSeleccionado");
+				
+					$("#btnDetails").addClass("botonNoSeleccionado");
+					$("#btnDetails").removeClass("botonSeleccionado");
+
+					$("#btnDetailsNav").addClass("botonNoSeleccionado");
+					$("#btnDetailsNav").removeClass("botonSeleccionado");
+
+					$("#btnSummary").addClass("botonNoSeleccionado");
+					$("#btnSummary").removeClass("botonSeleccionado");
+
+					$("#btnSummaryNav").addClass("botonNoSeleccionado");
+					$("#btnSummaryNav").removeClass("botonSeleccionado");
+
+					$("#videoY").css("display","block");
+					$("#videoR").css("display","none");
+
+					$("#overview").css("display","none");
+					$("#usage").css("display","block");
+					$("#details").css("display","none");
+					$("#summary").css("display","none");
+				}
+				
+				function Details(){
+				
+					$("#btnOverview").addClass("botonNoSeleccionado");
+					$("#btnOverview").removeClass("botonSeleccionado");
+
+					$("#btnOverviewNav").addClass("botonNoSeleccionado");
+					$("#btnOverviewNav").removeClass("botonSeleccionado");
+
+					$("#btnUsage").addClass("botonNoSeleccionado");
+					$("#btnUsage").removeClass("botonSeleccionado");
+
+					$("#btnUsageNav").addClass("botonNoSeleccionado");
+					$("#btnUsageNav").removeClass("botonSeleccionado");
+
+					$("#btnDetails").addClass("botonSeleccionado");
+					$("#btnDetails").removeClass("botonNoSeleccionado");
+
+					$("#btnDetailsNav").addClass("botonSeleccionado");
+					$("#btnDetailsNav").removeClass("botonNoSeleccionado");
+				
+					$("#btnSummary").addClass("botonNoSeleccionado");
+					$("#btnSummary").removeClass("botonSeleccionado");
+
+					$("#btnSummaryNav").addClass("botonNoSeleccionado");
+					$("#btnSummaryNav").removeClass("botonSeleccionado");
+
+					$("#videoY").css("display","block"); // No muestra video de youtube
+					$("#videoR").css("display","none"); // Muestra video referenciado 
+
+					$("#overview").css("display","none");
+					$("#usage").css("display","none");
+					$("#summary").css("display","none");
+					$("#details").css("display","block");
+				}
+
+				function Summary(){
+				
+					$("#btnOverview").addClass("botonNoSeleccionado");
+					$("#btnOverview").removeClass("botonSeleccionado");
+
+					$("#btnOverviewNav").addClass("botonNoSeleccionado");
+					$("#btnOverviewNav").removeClass("botonSeleccionado");
+
+					$("#btnUsage").addClass("botonNoSeleccionado");
+					$("#btnUsage").removeClass("botonSeleccionado");
+
+					$("#btnUsageNav").addClass("botonNoSeleccionado");
+					$("#btnUsageNav").removeClass("botonSeleccionado");
+				
+					$("#btnDetails").addClass("botonNoSeleccionado");
+					$("#btnDetails").removeClass("botonSeleccionado");
+
+					$("#btnDetailsNav").addClass("botonNoSeleccionado");
+					$("#btnDetailsNav").removeClass("botonSeleccionado");
+
+					$("#btnSummary").addClass("botonSeleccionado");
+					$("#btnSummary").removeClass("botonNoSeleccionado");
+	
+					$("#btnSummaryNav").addClass("botonSeleccionado");
+					$("#btnSummaryNav").removeClass("botonNoSeleccionado");
+
+					$("#videoY").css("display","block");
+					$("#videoR").css("display","none");
+
+					$("#overview").css("display","none");
+					$("#usage").css("display","none");
+					$("#details").css("display","none");
+					$("#summary").css("display","block");
+				}
+				// Fin de los Botones
+				
+	WebFontConfig = {
+		google: { families: [ 'Questrial::latin' ] }
+	};
+	(function() {
+		var wf = document.createElement('script');
+		wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		wf.type = 'text/javascript';
+		wf.async = 'true';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(wf, s);
+  }	)(); 
+  
+  $(window).scroll(function () { 
+
+// distance from top of footer to top of document
+footertotop = ($('#footer').position().top);
+// distance user has scrolled from top, adjusted to take in height of sidebar (570 pixels inc. padding)
+scrolltop = $(document).scrollTop()+328;
+// difference between the two
+difference = scrolltop-footertotop;
+
+// if user has scrolled further than footer,
+// pull sidebar up using a negative margin
+
+if (scrolltop > footertotop) {
+
+$('#menu').css('margin-top',  0-difference);
+}
+
+else  {
+$('#menu').css('margin-top', 0);
+}
+});
+
+// Se inicializan las variables para cargar el API de Youtube de forma asincrona
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+
+// Crea el video mediante un objeto, con todos los atributos necesarios como por ejemplo que tenga el autoplay activado.
+// Esta funcion se utiliza para crear un solo video con las siguientes caracteristicas, autoplay desactivado y cuando se produce este en mute
+// Solo es aplicado a un solo video.
+function onYouTubePlayerAPIReady() {
+// Se crea el objeto player que tendra todos los atributos necesarios para el video de youtube
+// Donde coloca 'player' es el ID que tiene el DIV donde se va colocar el video
+// para mayor información de los atributos en objeto se puede consultar https://developers.google.com/youtube/iframe_api_reference	
+	player = new YT.Player('player', {
+      videoId: 'wmEqgjT61FA',	
+      playerVars : {
+            autoplay : 0
+       },
+      events: {
+      'onReady': onPlayerReady
+		}
+    });
+  }
+  
+ function onPlayerReady(event) {
+    event.target.mute();
+	// Activa el audio del video de youtube cuando el mouse este encima del video
+	$('.videoAutoPlay').mouseover(function(){
+	player.unMute();
+	});
+	// Desactiva el audio del video de youtube cuando el mouse este fuera del frame
+	$('.videoAutoPlay').mouseout(function(){
+    player.mute();
+	});
+	
+	// Ejecuta el video cuando el scroll se esta acercando a la posicion de donde esta el video
+	$(document).scroll(function() {
+	if( $(document).scrollTop() > $("#player").offset().top - 270 && $(document).scrollTop() < $("#player").offset().top - 130) {
+		player.playVideo();
+        
+	}else{
+        player.pauseVideo();
+	}
+	});
+}
+
+ 
+			</script>
+</html>
